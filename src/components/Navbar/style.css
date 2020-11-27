@@ -5,3 +5,25 @@
 body {
   background-color: papayawhip;
 }
+
+img {
+  width: 60%;
+  height: auto;
+}
+
+.img-fluid {
+  float: left;
+  margin: 0 5% 5% 0;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.col-lg-4 {
+  padding-top: 10%;
+}
+
+.links{
+color: red;
+font-family: 'Roboto', sans-serif;
+}
+
