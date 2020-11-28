@@ -19,7 +19,7 @@ function MusicCard() {
               </p>
               <p>
                 <a
-                  href="https://github.com/ctrahan94/Music-API-Group-Project"
+                  href="https://github.com/ctrahan94/Music-API-Group-Project-1"
                   target="_blank"
                   rel="noreferrer"
                 >
