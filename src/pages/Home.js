@@ -4,13 +4,13 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import logo from '../assets/images/colby.jpg';
 
-function About() {
+function Home() {
   return (
     <div>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="lg-4 sm-12">
-          <img src={logo} />
+          <img src={logo} alt="Colby" />
           </Col>
           <Col size="lg-4 sm-12">
             <p>My name is Colby Trahan. I graduated from Texas A&M Unversity with my B.S. in Economics. I am currently
@@ -23,13 +23,13 @@ function About() {
           </Col>
           < Col size="lg-4">
             <ul>
-              <li><strong>Phone: </strong><a class="links" href="tel:4097196833">(409) 719-6833</a></li>
-              <li><strong> Email: </strong> <a class="links" href="mailto:john@example.com">c.trahan94@yahoo.com</a></li>
-              <li><strong> Github: </strong> <a class="links" href="https://github.com/ctrahan94"
-                target="_blank">github.com/ctrahan94</a></li>
-              <li><strong> LinkedIn: </strong> <a class="links" href="https://www.linkedin.com/in/colby-trahan/"
-                target="_blank">linkedin.com/in/colby-trahan/</a></li>
-            <li><strong>View my  </strong><a class="links" href="https://drive.google.com/file/d/1jcSR_jHXK_h6u3F2N9OATNz-g-JBi8PS/view?usp=sharing" target="_blank">Resume:</a></li> 
+              <li><strong>Phone: </strong><a className="links" href="tel:4097196833">(409) 719-6833</a></li>
+              <li><strong> Email: </strong> <a className="links" href="mailto:colby.trahan1229@gmail.com">colby.trahan1229@gmail.com</a></li>
+              <li><strong> Github: </strong> <a className="links" href="https://github.com/ctrahan94"
+                rel="noreferrer" target="_blank">github.com/ctrahan94</a></li>
+              <li><strong> LinkedIn: </strong> <a className="links" href="https://www.linkedin.com/in/colby-trahan/"
+                rel="noreferrer" target="_blank">linkedin.com/in/colby-trahan/</a></li>
+            <li><strong>View my  </strong><a className="links" href="https://drive.google.com/file/d/1jcSR_jHXK_h6u3F2N9OATNz-g-JBi8PS/view?usp=sharing" rel="noreferrer" target="_blank">Resume:</a></li> 
           </ul>
           </Col>
         </Row>
@@ -38,4 +38,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;
