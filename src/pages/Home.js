@@ -3,6 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import logo from "../assets/images/colby.jpg";
+import "./home.css";
 
 function Home() {
   return (
@@ -28,7 +29,7 @@ function Home() {
             </p>
             <br />
             <p>
-              <span>Technical Skills:</span>JavaScript, jQuery, React.js, React,
+              <span id="tech-skills">Technical Skills:</span> JavaScript, jQuery, React.js, React,
               JSX, React Hooks, GIT, GitHub, MongoDB, Mongoose, MySQL,
               Sequelize, Bootstrap, HTML5, CSS3, Heroku, Terminal, Handlebars,
               APIs, AJAX, Restful API, ES6, JSON, Node.Js., Express
