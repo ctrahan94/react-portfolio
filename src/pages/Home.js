@@ -26,9 +26,12 @@ function Home() {
               learning can benefit you. You can email me directly or click on
               the contact tab and leave me a message.
             </p>
-            < br />
+            <br />
             <p>
-              Technical Skills: JavaScript, jQuery, React.js, React, JSX, React Hooks, GIT, GitHub, MongoDB, Mongoose, MySQL, Sequelize, Bootstrap, HTML5, CSS3, Heroku, Terminal, Handlebars, APIs, AJAX, Restful API, ES6, JSON, Node.Js., Express
+              <span>Technical Skills:</span>JavaScript, jQuery, React.js, React,
+              JSX, React Hooks, GIT, GitHub, MongoDB, Mongoose, MySQL,
+              Sequelize, Bootstrap, HTML5, CSS3, Heroku, Terminal, Handlebars,
+              APIs, AJAX, Restful API, ES6, JSON, Node.Js., Express
             </p>
           </Col>
           <Col size="lg-4">
