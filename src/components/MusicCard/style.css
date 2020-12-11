@@ -22,6 +22,10 @@
   height: auto;
 }
 
+span {
+  font-weight: bold;
+}
+
 .project1 {
   height: 500px;
   width: auto;

@@ -7,10 +7,14 @@ function MusicCard() {
     <div className="card project1">
        <img className="music-api card-images" alt="Music Group Project" src={Music} />
             <div className="card-body h-100">
-              <h5 className="card-title">Music API Group Project</h5>
+              <h5 className="card-title">Playlist Generator</h5>
+              <p>
+                <span>Description:</span> An app that allows you to search for songs, albums, artists and generate a playlist that is copied to your clipboard.
+
+              </p>
               <p className="card-text">
                 <a
-                  href="https://noracurcio.github.io/Music-API-Group-Project/"
+                  href="https://ctrahan94.github.io/Playlist_generator/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -19,7 +23,7 @@ function MusicCard() {
               </p>
               <p>
                 <a
-                  href="https://github.com/ctrahan94/Music-API-Group-Project-1"
+                  href="https://github.com/ctrahan94/Playlist_generator"
                   target="_blank"
                   rel="noreferrer"
                 >
