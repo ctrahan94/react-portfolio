@@ -12,7 +12,6 @@ function MusicCard() {
                 <span>Description:</span> An app that allows you to search for songs, albums, artists and generate a playlist that is copied to your clipboard.
               </p>
               <p>
-              <span>Role:</span>Used jQuery AJAX method to make requests to server-side APIs. Created an HTML page and styled with CSS and integrated Deezer API and manipulated the DOM using JavaScript leveraging the DOM API. 
               <span>Tools Utilized:</span> HTML, CSS, JSON,  AJAX, HTTP GET requests, and Server-side APIs
               </p>
               <p className="card-text">
